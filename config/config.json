@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-testing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactTesting/ReactTestingWebPart.js",
+          "manifest": "./src/webparts/reactTesting/ReactTestingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactTestingWebPartStrings": "lib/webparts/reactTesting/loc/{locale}.js"
+  }
+}
